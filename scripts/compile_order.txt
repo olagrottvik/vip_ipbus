@@ -1,0 +1,10 @@
+# library vip_ipbus
+../src/ipbus_bfm_pkg.vhd
+../src/vvc_cmd_pkg.vhd
+../src/td_target_support_pkg.vhd
+../src/td_vvc_framework_common_methods_pkg.vhd
+../src/vvc_methods_pkg.vhd
+../src/td_queue_pkg.vhd
+../src/td_vvc_entity_support_pkg.vhd
+../src/ipbus_vvc.vhd
+../src/vvc_context.vhd
