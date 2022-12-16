@@ -53,7 +53,6 @@ package td_vvc_framework_common_methods_pkg is
     constant timeout                   : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -67,7 +66,6 @@ package td_vvc_framework_common_methods_pkg is
     constant timeout                   : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -85,7 +83,6 @@ package td_vvc_framework_common_methods_pkg is
     constant timeout                   : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -100,7 +97,6 @@ package td_vvc_framework_common_methods_pkg is
     constant timeout                   : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -120,7 +116,6 @@ package td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant awaiting_completion_idx   : in    natural                     := 0;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -133,7 +128,6 @@ package td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant awaiting_completion_idx   : in    natural                     := 0;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -150,7 +144,6 @@ package td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant awaiting_completion_idx   : in    natural                     := 0;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -164,7 +157,6 @@ package td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant awaiting_completion_idx   : in    natural                     := 0;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -181,7 +173,6 @@ package td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant quietness                 : in    t_quietness                 := NON_QUIET;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -196,7 +187,6 @@ package td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant quietness                 : in    t_quietness                 := NON_QUIET;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -214,7 +204,6 @@ package td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant quietness                 : in    t_quietness                 := NON_QUIET;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -229,7 +218,6 @@ package td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant quietness                 : in    t_quietness                 := NON_QUIET;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -245,7 +233,6 @@ package td_vvc_framework_common_methods_pkg is
     constant vvc_channel               : in    t_channel;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -258,7 +245,6 @@ package td_vvc_framework_common_methods_pkg is
     constant vvc_instance_idx          : in    integer;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -282,7 +268,6 @@ package td_vvc_framework_common_methods_pkg is
     constant alert_level               : in    t_alert_level               := TB_ERROR;
     constant caller_name               : in    string                      := "base_procedure";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
   -- -- Same as above but without fetch_is_accepted.
@@ -296,7 +281,6 @@ package td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant alert_level               : in    t_alert_level               := TB_ERROR;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
   -- -- - This version does not use vvc_channel.
@@ -312,7 +296,6 @@ package td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant alert_level               : in    t_alert_level               := TB_ERROR;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
   -- -- Same as above but without fetch_is_accepted.
@@ -325,7 +308,6 @@ package td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant alert_level               : in    t_alert_level               := TB_ERROR;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -341,7 +323,6 @@ package td_vvc_framework_common_methods_pkg is
     constant delay                     : in    natural;  -- in clock cycles
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -355,7 +336,6 @@ package td_vvc_framework_common_methods_pkg is
     constant delay                     : in    natural;  -- in clock cycles
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -371,7 +351,6 @@ package td_vvc_framework_common_methods_pkg is
     constant delay                     : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -385,7 +364,6 @@ package td_vvc_framework_common_methods_pkg is
     constant delay                     : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -401,7 +379,6 @@ package td_vvc_framework_common_methods_pkg is
     constant vvc_channel               : in    t_channel                   := NA;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
   -- Overload without VVC channel
@@ -410,7 +387,6 @@ package td_vvc_framework_common_methods_pkg is
     constant vvc_instance_idx          : in    integer;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -427,7 +403,6 @@ package td_vvc_framework_common_methods_pkg is
     constant vvc_channel               : in    t_channel                   := NA;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
   -- Overload without VVC channel
@@ -436,7 +411,6 @@ package td_vvc_framework_common_methods_pkg is
     constant vvc_instance_idx          : in    integer;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   );
 
@@ -474,7 +448,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant timeout                   : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant proc_name : string := "await_completion";
@@ -498,11 +471,10 @@ package body td_vvc_framework_common_methods_pkg is
     constant timeout                   : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    await_completion(vvc_target, vvc_instance_idx, NA, timeout, msg, scope, use_provided_msg_id_panel, msg_id_panel);
+    await_completion(vvc_target, vvc_instance_idx, NA, timeout, msg, scope, msg_id_panel);
   end procedure;
 
   procedure await_completion(
@@ -513,7 +485,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant timeout                   : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant proc_name : string := "await_completion";
@@ -538,11 +509,10 @@ package body td_vvc_framework_common_methods_pkg is
     constant timeout                   : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    await_completion(vvc_target, vvc_instance_idx, NA, wanted_idx, timeout, msg, scope, use_provided_msg_id_panel, msg_id_panel);
+    await_completion(vvc_target, vvc_instance_idx, NA, wanted_idx, timeout, msg, scope, msg_id_panel);
   end procedure;
 
   procedure await_any_completion(
@@ -554,7 +524,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant awaiting_completion_idx   : in    natural                     := 0; -- Useful when being called by multiple sequencers
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant proc_name : string := "await_any_completion";
@@ -586,11 +555,10 @@ package body td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant awaiting_completion_idx   : in    natural                     := 0;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    await_any_completion(vvc_target, vvc_instance_idx, NA, lastness, timeout, msg, awaiting_completion_idx, scope, use_provided_msg_id_panel, msg_id_panel);
+    await_any_completion(vvc_target, vvc_instance_idx, NA, lastness, timeout, msg, awaiting_completion_idx, scope, msg_id_panel);
   end procedure;
 
   -- The two below are as the two above, except with wanted_idx as parameter
@@ -604,7 +572,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant awaiting_completion_idx   : in    natural                     := 0;  -- Useful when being called by multiple sequencers
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant proc_name : string := "await_any_completion";
@@ -640,11 +607,10 @@ package body td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant awaiting_completion_idx   : in    natural                     := 0; -- Useful when being called by multiple sequencers
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    await_any_completion(vvc_target, vvc_instance_idx, NA, wanted_idx, lastness, timeout, msg, awaiting_completion_idx, scope, use_provided_msg_id_panel, msg_id_panel);
+    await_any_completion(vvc_target, vvc_instance_idx, NA, wanted_idx, lastness, timeout, msg, awaiting_completion_idx, scope, msg_id_panel);
   end procedure;
 
   procedure disable_log_msg(
@@ -655,7 +621,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant quietness                 : in    t_quietness                 := NON_QUIET;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant proc_name : string := "disable_log_msg";
@@ -680,11 +645,10 @@ package body td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant quietness                 : in    t_quietness                 := NON_QUIET;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    disable_log_msg(vvc_target, vvc_instance_idx, NA, msg_id, msg, quietness, scope, use_provided_msg_id_panel, msg_id_panel);
+    disable_log_msg(vvc_target, vvc_instance_idx, NA, msg_id, msg, quietness, scope, msg_id_panel);
   end procedure;
 
   procedure enable_log_msg(
@@ -695,7 +659,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant quietness                 : in    t_quietness                 := NON_QUIET;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant proc_name : string := "enable_log_msg";
@@ -720,11 +683,10 @@ package body td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant quietness                 : in    t_quietness                 := NON_QUIET;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    enable_log_msg(vvc_target, vvc_instance_idx, NA, msg_id, msg, quietness, scope, use_provided_msg_id_panel, msg_id_panel);
+    enable_log_msg(vvc_target, vvc_instance_idx, NA, msg_id, msg, quietness, scope, msg_id_panel);
   end procedure;
 
   procedure flush_command_queue(
@@ -733,7 +695,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant vvc_channel               : in    t_channel;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant proc_name : string := "flush_command_queue";
@@ -753,11 +714,10 @@ package body td_vvc_framework_common_methods_pkg is
     constant vvc_instance_idx          : in    integer;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    flush_command_queue(vvc_target, vvc_instance_idx, NA, msg, scope, use_provided_msg_id_panel, msg_id_panel);
+    flush_command_queue(vvc_target, vvc_instance_idx, NA, msg, scope, msg_id_panel);
   end procedure;
 
   -- Requires that result is available (i.e. already executed in respective VVC)
@@ -773,7 +733,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant alert_level               : in    t_alert_level               := TB_ERROR;
     constant caller_name               : in    string                      := "base_procedure";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant proc_name : string := "fetch_result";
@@ -807,7 +766,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant alert_level               : in    t_alert_level               := TB_ERROR;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     variable v_fetch_is_accepted : boolean;
@@ -815,7 +773,7 @@ package body td_vvc_framework_common_methods_pkg is
     constant proc_call : string := proc_name & "(" & to_string(vvc_target, vvc_instance_idx, vvc_channel)  -- First part common for all
         & ", " & to_string(wanted_idx) & ")";
   begin
-    fetch_result(vvc_target, vvc_instance_idx, vvc_channel, wanted_idx, result, v_fetch_is_accepted, msg, alert_level, proc_name & "_with_check_of_ok", scope, use_provided_msg_id_panel, msg_id_panel);
+    fetch_result(vvc_target, vvc_instance_idx, vvc_channel, wanted_idx, result, v_fetch_is_accepted, msg, alert_level, proc_name & "_with_check_of_ok", scope, msg_id_panel);
     if v_fetch_is_accepted then
       log(ID_UVVM_CMD_RESULT, proc_call & ": Legal=>" & to_string(v_fetch_is_accepted) & ", Result=>" & format_command_idx(shared_cmd_idx), scope, msg_id_panel);    -- Get and ack the new command
     else
@@ -833,11 +791,10 @@ package body td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant alert_level               : in    t_alert_level               := TB_ERROR;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    fetch_result(vvc_target, vvc_instance_idx, NA, wanted_idx, result, fetch_is_accepted, msg, alert_level, "base_procedure", scope, use_provided_msg_id_panel, msg_id_panel);
+    fetch_result(vvc_target, vvc_instance_idx, NA, wanted_idx, result, fetch_is_accepted, msg, alert_level, "base_procedure", scope, msg_id_panel);
   end procedure;
 
   procedure fetch_result(
@@ -848,11 +805,10 @@ package body td_vvc_framework_common_methods_pkg is
     constant msg                       : in    string                      := "";
     constant alert_level               : in    t_alert_level               := TB_ERROR;
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    fetch_result(vvc_target, vvc_instance_idx, NA, wanted_idx, result, msg, alert_level, scope, use_provided_msg_id_panel, msg_id_panel);
+    fetch_result(vvc_target, vvc_instance_idx, NA, wanted_idx, result, msg, alert_level, scope, msg_id_panel);
   end procedure;
 
 
@@ -863,7 +819,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant delay                     : in    natural;  -- in clock cycles
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant proc_name : string := "insert_delay";
@@ -886,11 +841,10 @@ package body td_vvc_framework_common_methods_pkg is
     constant delay                     : in    natural;  -- in clock cycles
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    insert_delay(vvc_target, vvc_instance_idx, NA, delay, msg, scope, use_provided_msg_id_panel, msg_id_panel);
+    insert_delay(vvc_target, vvc_instance_idx, NA, delay, msg, scope, msg_id_panel);
   end procedure;
 
 
@@ -901,7 +855,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant delay                     : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant proc_name : string := "insert_delay";
@@ -924,11 +877,10 @@ package body td_vvc_framework_common_methods_pkg is
     constant delay                     : in    time;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    insert_delay(vvc_target, vvc_instance_idx, NA, delay, msg, scope, use_provided_msg_id_panel, msg_id_panel);
+    insert_delay(vvc_target, vvc_instance_idx, NA, delay, msg, scope, msg_id_panel);
   end procedure;
 
 
@@ -938,7 +890,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant vvc_channel               : in    t_channel                   := NA;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant proc_name : string := "terminate_current_command";
@@ -960,7 +911,6 @@ package body td_vvc_framework_common_methods_pkg is
     constant vvc_instance_idx          : in    integer;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant vvc_channel        :  t_channel  := NA;
@@ -968,7 +918,7 @@ package body td_vvc_framework_common_methods_pkg is
     constant proc_call          : string      := proc_name & "(" & to_string(vvc_target, vvc_instance_idx)  -- First part common for all
         & ")";
   begin
-    terminate_current_command(vvc_target, vvc_instance_idx, vvc_channel, msg, scope, use_provided_msg_id_panel, msg_id_panel);
+    terminate_current_command(vvc_target, vvc_instance_idx, vvc_channel, msg, scope, msg_id_panel);
   end procedure;
 
 
@@ -978,12 +928,11 @@ package body td_vvc_framework_common_methods_pkg is
     constant vvc_channel               : in    t_channel                   := NA;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
   begin
-    flush_command_queue(vvc_target, vvc_instance_idx, vvc_channel, msg, scope, use_provided_msg_id_panel, msg_id_panel);
-    terminate_current_command(vvc_target, vvc_instance_idx, vvc_channel, msg, scope, use_provided_msg_id_panel, msg_id_panel);
+    flush_command_queue(vvc_target, vvc_instance_idx, vvc_channel, msg, scope, msg_id_panel);
+    terminate_current_command(vvc_target, vvc_instance_idx, vvc_channel, msg, scope, msg_id_panel);
   end procedure;
 
   -- Overload without VVC channel
@@ -992,12 +941,11 @@ package body td_vvc_framework_common_methods_pkg is
     constant vvc_instance_idx          : in    integer;
     constant msg                       : in    string                      := "";
     constant scope                     : in    string                      := C_VVC_CMD_SCOPE_DEFAULT;
-    constant use_provided_msg_id_panel : in    t_use_provided_msg_id_panel := DO_NOT_USE_PROVIDED_MSG_ID_PANEL;
     constant msg_id_panel              : in    t_msg_id_panel              := shared_msg_id_panel
   ) is
     constant vvc_channel : t_channel := NA;
   begin
-    terminate_all_commands(vvc_target, vvc_instance_idx, vvc_channel, msg, scope, use_provided_msg_id_panel, msg_id_panel);
+    terminate_all_commands(vvc_target, vvc_instance_idx, vvc_channel, msg, scope, msg_id_panel);
   end procedure;
 
 
